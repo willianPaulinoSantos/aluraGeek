@@ -1,0 +1,24 @@
+
+header .cabecalho{
+    width: 60%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .cabecalho-logoPesquisa{
+        display:flex;
+        flex-direction: row;
+        padding: 2rem 0;
+    }
+
+    .cabecalho-logoPesquisa-logo{
+        padding: 0 1.5rem;
+    }
+
+    .cabecalho-barra_pesquisa{
+        width: 22.6rem;
+        height: 2.5rem;
+    }
