@@ -6,7 +6,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="whidth=device-whidth, initial-scale=1.0">
         <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/cabecalho.css">
+        <link rel="stylesheet" href="./css/botoes.css">
+        <link rel="stylesheet" href="./css/produtos.css">
         <title>aluraGeek</title>
     </head>
     <body>
@@ -14,15 +18,20 @@
             <div class="cabecalho">
                 <div class="cabecalho-logoPesquisa">
                     <h1><img class="cabecalho-logoPesquisa-logo" src="./img/logo/Logo.png"></h1>
-                    <input type="text" name="pesquisa" class="cabecalho-campo_pesquisa" placeholder="O que deseja encontrar?">
-                    <img class="cabecalho-pesquisa_lupa" src="./img/logo/lupaCabecalho.svg">
+                    <div class="cabecalho-barraPesquisa">
+                        <input type="text" name="pesquisa" class="cabecalho-campo_pesquisa" placeholder="O que deseja encontrar?">
+                        <img class="cabecalho-pesquisa_lupa" src="./img/logo/lupaCabecalho.svg">
+                    </div>
+                    
                 </div>
-                <button class="cabecalho-btn_login btn">Login</button>
+                <button class="cabecalho-btn_login botao-tipo1">Login</button>
             </div>
             <div class="cabecalho-banner">
-                <h2 class="cabecalho-banner_titulo">Abril Promocional</h2>
-                <p class="cabecalho-banner_descricao">Produtos selecionados com 33% de desconto</p>
-                <button class="cabecalho-banner_btn btn">Ver Consoles</button>
+                <div class="cabecalho-banner_texto">
+                    <h2 class="cabecalho-banner_titulo">Abril Promocional</h2>
+                    <p class="cabecalho-banner_descricao">Produtos selecionados com 33% de desconto</p>
+                    <button class="cabecalho-btn_banner botao-tipo2">Ver Consoles</button>
+                </div>
             </div>
         </header>
         <main>

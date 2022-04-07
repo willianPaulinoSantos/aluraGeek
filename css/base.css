@@ -1,0 +1,10 @@
+:root {
+    --fonte-Raleway: 'Raleway', sans-serif;
+    --cor-brancoLeve: #F5F5F5;
+    --cor-azul: #2A7AE4;
+    --cor-cinza: #464646;
+}
+
+html {
+    font-family: var(--fonte-Raleway);
+}

@@ -1,0 +1,29 @@
+.produtos {
+    margin: 0 6rem;  
+}
+
+.produtos-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.produtos-cabecalho_titulo {
+    color: var(--cor-cinza);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.produtos_itens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos_itens-card{
+    width: 15%;
+}
+
+.produtos_itens-card-img {
+   /* width: 90%;*/
+}

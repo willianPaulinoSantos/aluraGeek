@@ -1,34 +1,58 @@
 
 header .cabecalho {
-    width: 76%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 7.5rem;
 }
 
-    .cabecalho-logoPesquisa{
-        display:flex;
+    .cabecalho-logoPesquisa {
+        display: flex;
         flex-direction: row;
         padding: 2rem 0;
+        align-items: center;
     }
 
     .cabecalho-logoPesquisa-logo{
-        padding: 0 1.5rem;
+        padding-right: 1.5rem;
+        }
+
+    .cabecalho-barraPesquisa {
+        background-color: var(--cor-brancoLeve);
+        border-radius: 50px;
+        width: fit-content;
+        height: fit-content;
+        padding: 0.8rem;
     }
 
-    .cabecalho-barra_pesquisa{
-        width: 22.6rem;
-        height: 2.5rem;
+    .cabecalho-campo_pesquisa {
+        border: none;
+        background-color: var(--cor-brancoLeve);
+        width: 24.56rem;
+        height: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+
+    }
+
+    .cabecalho-campo_pesquisa:focus{
+        border: none;
+        outline: none;
     }
 
     .cabecalho-banner{
-        padding-top: 9.375rem;
-        padding-left: 9.5rem;
+       /* padding-top: 9.375rem;
+        padding-left: 9.5rem;*/
         height: 22rem;
         background-repeat:no-repeat;
         background-image: url('../img/logo/banner-image.png');
+    }
+
+    .cabecalho-banner_texto{
+        padding-top: 9%;
+        padding-left: 7.5%;
     }
 
     
@@ -37,4 +61,11 @@ header .cabecalho {
         color: white;
         font-weight: 700;
         padding: 1rem 0;
+    }
+
+    .cabecalho-banner_descricao {
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: white;
+        padding-bottom: 1rem;
     }

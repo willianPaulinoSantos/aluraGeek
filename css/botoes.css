@@ -1,0 +1,25 @@
+/*Botões tipo 1: login -> (texto e bordas azuis e fundo branco) */
+
+.botao-tipo1 {
+    color: var(--cor-azul);
+    background-color: var(--cor-brancoLeve);
+    border: 1px solid var(--cor-azul);
+}
+
+/*Botões tipo 2: 'ver consoles', 'enviar mensagem' -> (texto branco, bordas e fundo azuis) */
+
+.botao-tipo2 {
+    color: var(--cor-brancoLeve);
+    background-color: var(--cor-azul);
+    border: 1px solid var(--cor-azul);
+}
+
+.cabecalho-btn_login {
+    width: 11.37rem;
+    height: 3.18rem;
+}
+
+.cabecalho-btn_banner {
+    width: 8.125rem;
+    height: 3.1875rem;
+}
