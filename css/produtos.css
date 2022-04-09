@@ -15,6 +15,14 @@
     font-weight: 700;
 }
 
+.produtos-cabecalho_link {
+    text-decoration: none;
+    font-weight: 700;
+}
+.produto-cabecalho_link-seta{
+    margin-left: 0.75rem;
+}
+
 .produtos_itens {
     display: flex;
     justify-content: space-between;
@@ -24,6 +32,25 @@
     width: 15%;
 }
 
-.produtos_itens-card-img {
-   /* width: 90%;*/
+.produtos_itens-card {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos_itens-card-descricao {
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 0; 
+}
+
+.produtos_itens-card-preco {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+
+.produtos_itens-card-link {
+    text-decoration: none;
+    font-weight: 700;
 }

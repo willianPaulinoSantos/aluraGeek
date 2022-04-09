@@ -43,8 +43,6 @@ header .cabecalho {
     }
 
     .cabecalho-banner{
-       /* padding-top: 9.375rem;
-        padding-left: 9.5rem;*/
         height: 22rem;
         background-repeat:no-repeat;
         background-image: url('../img/logo/banner-image.png');
