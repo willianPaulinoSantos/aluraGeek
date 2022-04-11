@@ -1,0 +1,33 @@
+.rodape-faleConosco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 9.6rem;
+}
+
+.rodape-faleConosco_logo {
+    width: 11rem;
+    height: 3rem;
+}
+
+.rodape-faleConosco_links{
+    display: inline-block;
+    line-height: 1rem;
+}
+
+.rodape-faleConosco_link{
+    text-decoration: none;
+    line-height: 3rem;
+
+}
+
+.rodape-faleConosco_link-item{
+    list-style: none;
+    color: black;
+}
+
+.rodape-faleConosco_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
