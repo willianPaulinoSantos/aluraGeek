@@ -56,3 +56,23 @@
     text-decoration: none;
     font-weight: 700;
 }
+
+@media screen and (max-width: 468px){
+    .produtos {
+        margin: 0px 1rem;
+    }
+
+    .produtos-itens {
+        margin-bottom: 1.4rem;
+    }
+
+    .produtos_itens-card{
+        display: none;
+    }
+
+    .produtos_itens-card:nth-child(1), .produtos_itens-card:nth-child(2){
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+    }
+}

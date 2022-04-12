@@ -81,12 +81,31 @@ header .cabecalho {
         width: 82%;
     }
 
-    .cabecalho-barraPesquisa {
+    .cabecalho-barraPesquisa{
         display: none;
     }
 
     .cabecalho-pesquisa_lupa-mobile{
         display: inline-block;
         width: 1.6rem;
+    }
+
+    .cabecalho-banner{
+        height: 9rem;
+        background-image: url('../img/logo/banner-imageMobile.png');
+        background-size: 468px 138px;
+    }
+    .cabecalho-banner_titulo{
+        font-size: 1.375rem;
+    }
+
+    .cabecalho-banner_descricao{
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
+    .cabecalho-banner_texto {
+        padding-top: 2%;
+        padding-left: 5.5%;
     }
 }
