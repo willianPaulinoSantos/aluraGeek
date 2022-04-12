@@ -109,3 +109,43 @@ header .cabecalho {
         padding-left: 5.5%;
     }
 }
+
+
+@media screen and (max-width: 768px){
+    header .cabecalho{
+        padding: 0px 2.175rem;
+    }
+
+    .cabecalho-logoPesquisa {
+        padding: 0.5rem 0;
+    }
+
+    .cabecalho-logoPesquisa-logo{
+        width: 7rem;
+    }
+
+    .cabecalho-barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 16rem;
+    }
+
+    .cabecalho-banner.cabecalho-banner {
+        height: 13rem;
+        background-image: url("../img/logo/banner-image.png");
+        background-size: 100%;
+    }
+    .cabecalho-banner_titulo{
+        font-size: 3.25rem;
+    }
+
+    .cabecalho-banner_descricao{
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
+    .cabecalho-banner_texto {
+        padding-top: 2%;
+        padding-left: 5.5%;
+    }
+}

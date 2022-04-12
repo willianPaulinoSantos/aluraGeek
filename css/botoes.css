@@ -43,3 +43,10 @@
         height: 2.1875rem;
     }
 }
+
+@media screen and (max-width: 768px){
+    .cabecalho-btn_login {
+        width: 10.37rem;
+        height: 2.48rem;
+    }
+}
