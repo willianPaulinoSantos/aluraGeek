@@ -42,6 +42,10 @@ header .cabecalho {
         outline: none;
     }
 
+    .cabecalho-pesquisa_lupa-mobile{
+        display: none;
+    }
+
     .cabecalho-banner{
         height: 22rem;
         background-repeat:no-repeat;
@@ -67,3 +71,21 @@ header .cabecalho {
         color: white;
         padding-bottom: 1rem;
     }
+
+@media screen and (max-width: 468px){
+    header .cabecalho{
+        padding: 1.176875rem;
+    }
+
+    .cabecalho-logoPesquisa-logo{
+        width: 61%;
+    }
+
+    .cabecalho-barraPesquisa {
+        display: none;
+    }
+
+    .cabecalho-pesquisa_lupa-mobile{
+        display: inline-block;
+    }
+}

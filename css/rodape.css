@@ -91,3 +91,33 @@
 .rodape-credito_ano{
     padding: 0 1rem 1rem 1rem;
 }
+
+
+@media screen and (max-width: 468px){
+    .rodape-faleConosco {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .rodape-faleConosco_logo{
+        width: 11rem;
+        height: 3rem;
+        margin-bottom: 1rem;    
+    }
+
+    .rodape-faleConosco_links{
+        text-align: center;
+    }
+
+    .rodape-faleConosco_form{
+        width: 100%;
+        height: 18.3125rem;
+        margin-top: 3rem;
+    }
+
+    .rodape-credito {
+        width: 82%;
+    }
+}

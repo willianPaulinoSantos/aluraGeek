@@ -15,7 +15,7 @@
 }
 
 .cabecalho-btn_login {
-    width: 11.37rem;
+    width: 11.37rem;    
     height: 3.18rem;
 }
 
@@ -28,4 +28,10 @@
     padding: 1rem;
     width: 10.3125rem;
     height: 3.1875rem;
+}
+
+@media screen and (max-width: 468px){
+    .cabecalho-btn_login{
+        width: 22.5rem;
+    }
 }
