@@ -1,8 +1,9 @@
 .rodape-faleConosco {
+    background-color: var(--cor-cinzaAzulado);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 4rem 9.6rem;
+    padding: 4rem 5.6rem;
 }
 
 .rodape-faleConosco_logo {
@@ -30,4 +31,63 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 43%;
+}
+
+.rodape-faleConosco_form-titulo{
+    font-weight: 700;
+    color: var(--cor-pretoAcinzentado);
+}
+
+.rodape-faleConosco_form-divNome{
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
+.rodape-faleConosco_form-labelNome{
+    color: var(--cor-cinzaClaro);
+}
+
+.rodape-faleConosco_form-nome{
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.rodape-faleConosco_form-nome:focus{
+    outline: none;
+}
+
+.rodape-faleConosco_form-divMensagem{
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
+.rodape-faleConosco_form-labelMensagem{
+    display: block;
+    color: var(--cor-cinzaClaro);
+    padding-bottom: 0.2rem;
+}
+
+.rodape-faleConosco_form-mensagem{
+    border: none;
+    height: 2.125rem;
+    width: 100%;
+}
+
+.rodape-faleConosco_form-mensagem:focus{outline: none;}
+
+.rodape-credito{
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.rodape-credito_nome{
+    padding: 1rem;
+}
+
+.rodape-credito_ano{
+    padding: 0 1rem 1rem 1rem;
 }
