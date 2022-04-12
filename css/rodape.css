@@ -99,11 +99,9 @@
         flex-direction: column;
         padding: 1rem;
         align-items: center;
-    }
+    } 
 
     .rodape-faleConosco_logo{
-        width: 11rem;
-        height: 3rem;
         margin-bottom: 1rem;    
     }
 

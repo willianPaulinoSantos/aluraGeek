@@ -74,11 +74,11 @@ header .cabecalho {
 
 @media screen and (max-width: 468px){
     header .cabecalho{
-        padding: 1.176875rem;
+        padding: 0 1.176875rem;
     }
 
     .cabecalho-logoPesquisa-logo{
-        width: 61%;
+        width: 82%;
     }
 
     .cabecalho-barraPesquisa {
@@ -87,5 +87,6 @@ header .cabecalho {
 
     .cabecalho-pesquisa_lupa-mobile{
         display: inline-block;
+        width: 1.6rem;
     }
 }

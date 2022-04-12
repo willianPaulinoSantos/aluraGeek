@@ -2,7 +2,7 @@
 
 .botao-tipo1 {
     color: var(--cor-azul);
-    background-color: var(--cor-brancoLeve);
+    background-color: white;
     border: 1px solid var(--cor-azul);
 }
 
@@ -32,6 +32,8 @@
 
 @media screen and (max-width: 468px){
     .cabecalho-btn_login{
-        width: 22.5rem;
-    }
+        width: 9.5rem;
+        height: 3rem;
+        font-weight: 600;
+        margin-right: 1.5rem;    }
 }
