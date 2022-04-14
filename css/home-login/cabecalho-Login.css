@@ -22,13 +22,19 @@ Lado ruim: fica mais dificil ler e entender meu código, por causa das contas do
 .cabecalhoLogin-barraPesquisa{
         display: flex;
         justify-content: space-between;
-        flex-grow: 0.8;
+        flex-grow: 0.8802;
         height: 2.5rem;
+        background-color: #F5F5F5;
+        border-radius: 50px;
+        padding: 0.3rem;
 }
 
 .cabecalho-campo_pesquisa {
     border: none;
     flex-grow: 1;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding-left: 0.7rem;
 }
 
 .cabecalho-campo_pesquisa:focus{
@@ -37,10 +43,11 @@ Lado ruim: fica mais dificil ler e entender meu código, por causa das contas do
 
 .cabecalhoLogin-pesquisa_lupa{
     width: 1.15rem;
+    padding-right: 0.5rem;
 }
 
 .cabecalhoLogin-btn_login{
-    flex-grow: 0.1;
+    flex-grow: 0.2425;
 }
 
 .cabecalhoLogin-pesquisa_lupa-mobile{

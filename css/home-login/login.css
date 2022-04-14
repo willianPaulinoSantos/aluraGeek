@@ -1,0 +1,11 @@
+.login{
+    background-color: var(--cor-brancoLeve);
+}
+
+.login-container{
+    margin: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
