@@ -14,6 +14,7 @@
 .rodape-faleConosco_links{
     display: inline-block;
     line-height: 1rem;
+    margin-left: 7rem;
 }
 
 .rodape-faleConosco_link{
@@ -25,6 +26,10 @@
 .rodape-faleConosco_link-item{
     list-style: none;
     color: black;
+}
+
+.rodape-faleConosco__contaniner-logoLista{
+    display: flex;
 }
 
 .rodape-faleConosco_form{
@@ -93,6 +98,8 @@
 }
 
 
+
+
 @media screen and (max-width: 468px){
     .rodape-faleConosco {
         display: flex;
@@ -107,6 +114,7 @@
 
     .rodape-faleConosco_links{
         text-align: center;
+        margin: unset;
     }
 
     .rodape-faleConosco_form{
@@ -117,5 +125,30 @@
 
     .rodape-credito {
         width: 82%;
+    }
+
+    .rodape-faleConosco__contaniner-logoLista{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-botao {
+        width: 16rem;
+    }
+}
+
+@media (min-width: 468.1px) and (max-width: 768px){
+    .rodape-faleConosco{
+        padding: 2rem 2rem;
+    }
+
+    .rodape-faleConosco__contaniner-logoLista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-faleConosco_links{
+        margin: unset;
     }
 }

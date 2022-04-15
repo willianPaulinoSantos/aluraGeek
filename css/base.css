@@ -10,4 +10,6 @@
 
 html {
     font-family: var(--fonte-Raleway);
+    min-width: 320px;
+    max-width: 1500px;
 }

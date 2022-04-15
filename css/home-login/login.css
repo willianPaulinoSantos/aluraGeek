@@ -2,10 +2,43 @@
     background-color: var(--cor-brancoLeve);
 }
 
-.login-container{
-    margin: 0 10rem;
+.login-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    padding: 4.6875rem 0;
+}
+
+.login-titulo{
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.login-usuario, .login-senha{
+    width: 24.4375rem;
+    height: 2.93rem;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+    border: none;
+    border-bottom: 1px solid var(--cor-cinzaClaro);
+}
+
+.login-botao{
+    width: 26.4375rem;
+    height: 3.875rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 468px){
+    .login-usuario, .login-senha{
+        width: 16rem;
+        padding: 0 0.3rem;
+    }
+
+    .login-botao{
+        width: 16rem;
+    }
 }
