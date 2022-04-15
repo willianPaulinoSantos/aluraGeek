@@ -90,6 +90,10 @@ header .cabecalho {
         width: 16rem;
     }
 
+    .cabecalho-campo_pesquisa{
+        width: 16rem;
+    }
+
     .cabecalho-banner.cabecalho-banner {
         height: 13rem;
         background-image: url("../../img/logo/banner-image.png");
